@@ -311,6 +311,7 @@ rcp<AudioSound> AudioEngine::play(rcp<AudioSource> source,
             fprintf(stderr, "AudioSource::play - Failed to initialize decoder.\n");
             return nullptr;
         }
+#undef max
         clip->frameCursor = 0;
         clip->endFrame = endTime == 0 ? std::numeric_limits<uint64_t>::max()
                                       : soundStartTime + endTime - startTime;
