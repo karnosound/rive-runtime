@@ -217,7 +217,6 @@ do
         '-Wno-c++98-compat-pedantic',
         '-Wno-c99-extensions',
         '-Wno-ctad-maybe-unsupported',
-        '-Wno-deprecated-copy-with-user-provided-dtor',
         '-Wno-deprecated-declarations',
         '-Wno-documentation',
         '-Wno-documentation-pedantic',
@@ -229,7 +228,6 @@ do
         '-Wno-implicit-float-conversion',
         '-Wno-newline-eof',
         '-Wno-old-style-cast',
-        '-Wno-reserved-identifier',
         '-Wno-shadow',
         '-Wno-sign-compare',
         '-Wno-sign-conversion',
@@ -239,7 +237,6 @@ do
         '-Wno-unreachable-code',
         '-Wno-switch-enum',
         '-Wno-missing-field-initializers',
-        '-Wno-unsafe-buffer-usage',
     })
 end
 
