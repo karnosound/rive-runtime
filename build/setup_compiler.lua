@@ -45,7 +45,7 @@ end
 
 filter('system:windows')
 do
-    staticruntime('on') -- Match Skia's /MT flag for link compatibility
+    staticruntime('off') -- Match Skia's /MT flag for link compatibility
     runtime('Release') -- Use /MT even in debug (/MTd is incompatible with Skia)
 end
 
